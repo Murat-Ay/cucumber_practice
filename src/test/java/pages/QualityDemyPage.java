@@ -56,4 +56,22 @@ public class QualityDemyPage {
 
     @FindBy(xpath = "(//i[@class='fa fa-minus'])[3]")
     public WebElement outComesRedMinusButton;
+
+    @FindBy(xpath = "//*[@class='btn btn-sign-up']")
+    public WebElement signUpLink;
+
+    @FindBy(xpath = "//input[@name='first_name']")
+    public WebElement firstNameBox;
+
+    @FindBy(xpath = "//input[@name='last_name']")
+    public WebElement lastNameBox;
+
+    @FindBy(xpath = "//input[@name='email']")
+    public WebElement emailBoxSignUpPage;
+
+    @FindBy(xpath = "//input[@name='password']")
+    public WebElement passwordBoxSignUpPage;
+
+    @FindBy(xpath = "//button[text()='Sign Up']")
+    public WebElement buttonNewSignUp;
 }
