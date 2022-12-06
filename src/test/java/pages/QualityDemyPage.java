@@ -9,7 +9,6 @@ public class QualityDemyPage {
     public QualityDemyPage() {
         PageFactory.initElements( Driver.getDriver(), this );
     }
-
     @FindBy(xpath = "//a[text()='Log in']")
     public WebElement loginLink;
 
