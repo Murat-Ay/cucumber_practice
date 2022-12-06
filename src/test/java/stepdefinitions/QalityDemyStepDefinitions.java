@@ -41,18 +41,20 @@ public class QalityDemyStepDefinitions {
         demyPage.lastNameBox.sendKeys( ConfigReader.getProperty( "lastname" ) );
 
     }
-
-
     @Then("Sayfayi kapatir")
     public void sayfayi_kapatir() {
         Driver.closeDriver();
 
     }
-
-    @When("E-mail ve yeni password bilgilerini girer")
-    public void eMailVeYeniPasswordBilgileriniGirer() {
+    @When("E-mail bilgilerini girer")
+    public void e_mail_bilgilerini_girer() {
         demyPage.emailBoxSignUpPage.sendKeys( "murat@gmail.com" );
+    }
+    @When("Password bilgilerini girer")
+    public void password_bilgilerini_girer() {
         demyPage.passwordBoxSignUpPage.sendKeys( "12345aA." );
         demyPage.buttonNewSignUp.click();
     }
+
+
 }
