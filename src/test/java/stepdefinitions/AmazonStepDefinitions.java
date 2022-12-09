@@ -9,7 +9,6 @@ import utilities.Driver;
 
 public class AmazonStepDefinitions {
     AmazonPage amazonPage=new AmazonPage();
-
     @Then("Kullanici amazon arama kutusunda {string} arama yapar")
     public void kullanici_amazon_arama_kutusunda_arama_yapar(String istenenMeyve) {
 amazonPage.amazonAramaKutusu.sendKeys( istenenMeyve+ Keys.ENTER );
@@ -18,5 +17,4 @@ amazonPage.amazonAramaKutusu.sendKeys( istenenMeyve+ Keys.ENTER );
     public void kullanici_arattigi_test_eder(String testMeyve) {
         Assert.assertTrue( amazonPage.amazonAramaSonucuTest.getText().contains( testMeyve ));
     }
-
 }
