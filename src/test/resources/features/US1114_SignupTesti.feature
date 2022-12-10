@@ -12,7 +12,7 @@ Feature: US1114 Signup Testi
     Then  Kullanici uye hesabi olusturmaadigini test eder
     And   Sayfayi kapatir
     Examples:
-      | istenenIsim istenenSoyisim  | istenenMail  | istenenPassword   |
+      | istenenIsim |istenenSoyisim   | istenenMail  | istenenPassword   |
       | yanlisisim  |  dogrusoyisim   | yanlismail   | yanlispassword    |
       | dogruisim   |  yanlissoyisim  | yanlismail2  | dogrusifre        |
       | yanlisisim  |  dogrusoyisim   | yanlismail3  | yanlispassword    |
