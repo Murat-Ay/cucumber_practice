@@ -17,8 +17,7 @@ import org.junit.runner.RunWith;
 )
 
 public class TestRunner1 {
-    /*
-    Bir framework'de bir tek Runner class'i yeterli olabilir
+    /*    Bir framework'de bir tek Runner class'i yeterli olabilir
     Runner class'inda class body'sinde hic bir sey olmaz
     Runner class'imizi onemli yapan 2 adet annotaion vardir
     @RunWith(Cucumber.class) notasyonu Runner class'ina calisma ozelligi katar

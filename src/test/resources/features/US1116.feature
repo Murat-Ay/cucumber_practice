@@ -12,7 +12,7 @@ Feature: US1115 Aamazon Genel Testi
       | Arts & Crafts        |  Mona Lisa      | Mona Lisa      |
       | Automotive           |  Lastik         |   Lastik       |
       | Baby                 |  Biberon        | Biberon        |
-      |Beauty & Personal Care|  Krem           | Krem            |
+      |Beauty & Personal Care|  Krem           | Krem           |
       | Books                | Namik Kemal     |    Namik Kemal |
       | Computers            |    Asus         |       Asus     |
 

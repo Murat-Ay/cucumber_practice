@@ -19,7 +19,7 @@ amazonPage.amazonAramaKutusu.sendKeys( istenenMeyve+ Keys.ENTER );
         Assert.assertTrue( amazonPage.amazonAramaSonucuTest.getText().contains( testMeyve ));
     }
     @Then("Kullanici arama kutusundaki drop down menusunden {string} secer")
-    public void kullanici_arama_kutusundaki_drop_down_menüsünden_secer(String kategori) {
+    public void kullanici_arama_kutusundaki_drop_down_menusunden_secer(String kategori) {
         Select select=new Select( amazonPage.dropDownMenu  );
         select.selectByVisibleText( kategori );
 
