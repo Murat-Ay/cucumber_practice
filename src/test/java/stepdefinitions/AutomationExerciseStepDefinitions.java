@@ -8,9 +8,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 public class AutomationExerciseStepDefinitions {
-
     AutomationExercisePage page=new AutomationExercisePage();
-
     @Given("Kullanici {string} sayfasina gider")
     public void kullanici_sayfasina_gider(String istenenUrl) {
         Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
@@ -39,5 +37,4 @@ public class AutomationExerciseStepDefinitions {
     public void kullaniciSayfayaGirisYapilamadiginiTestEder() {
         Assert.assertTrue(page.loginButonu.isDisplayed());
     }
-
 }

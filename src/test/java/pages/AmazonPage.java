@@ -6,6 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
 public class AmazonPage {
+    public WebElement tryBirimi;
+
     public AmazonPage() {
         PageFactory.initElements( Driver.getDriver(), this );
     }
@@ -18,5 +20,23 @@ public class AmazonPage {
 
         @FindBy(xpath = "//select[@aria-describedby='searchDropdownDescription']")
         public WebElement dropDownMenu;
+
+    @FindBy(xpath = "//span[@class='icp-nav-link-inner']")
+    public WebElement languageSection;
+
+    @FindBy(xpath = "(//a[@href='/customer-preferences/edit?ref=icp_cop_flyout_change?preferencesReturnUrl=%2F'])[1]")
+    public WebElement changeButtonChangeLanguage;
+
+    @FindBy(xpath = "//span[@class='a-button-text a-declarative']")
+    public WebElement selectCurrencyDrop;
+
+    @FindBy(xpath = "//input[@class='a-button-input']")
+    public WebElement saveChangesButton;
+
+    @FindBy (xpath = "(//a[@class='icp-button'])[2]")
+    public WebElement usdButton;
+
+    @FindBy(xpath = "(//span[text()='PLN'])[1]")
+    public WebElement paraBirimiTest;
     }
 
