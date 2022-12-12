@@ -15,6 +15,7 @@ public class AutomationExerciseStepDefinitions {
     }
     @Then("Kullanici Signup butonuna tiklar")
     public void kullanici_signup_butonuna_tiklar() {
+
         page.signUpLink.click();
     }
     @Then("Kullanici mail bolumune {string} gonderir")
@@ -27,6 +28,7 @@ public class AutomationExerciseStepDefinitions {
     }
     @Then("Kullanici login Butonuna tiklar")
     public void kullanici_login_butonuna_tiklar() {
+
         page.loginButonu.click();
     }
     @Then("Kullanici Automation sayfasina giris yaptigini test eder")
