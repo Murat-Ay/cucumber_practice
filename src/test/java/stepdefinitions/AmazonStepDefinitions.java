@@ -30,7 +30,6 @@ amazonPage.amazonAramaKutusu.sendKeys( istenenMeyve+ Keys.ENTER );
 
         //actions.moveToElement(amazonPage.languageSection).click(amazonPage.changeButtonChangeLanguage).perform();
         amazonPage.languageSection.click();
-
     }
     @Then("Kullanici Ayarlar kisminda para birimi olarak Turk Lirasini secer")
     public void kullanici_ayarlar_kisminda_para_birimi_olarak_turk_lirasini_secer() {
