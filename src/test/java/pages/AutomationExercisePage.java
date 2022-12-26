@@ -8,7 +8,6 @@ import utilities.Driver;
 public class AutomationExercisePage {
     public AutomationExercisePage(){
         PageFactory.initElements( Driver.getDriver(),this );
-
     }
     @FindBy(xpath = "(//button[@type='submit'])[1]")
     public WebElement loginButonu;
