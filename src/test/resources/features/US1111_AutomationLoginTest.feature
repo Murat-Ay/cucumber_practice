@@ -1,5 +1,6 @@
 @US1111
 Feature: US1111 AutomationLogin Testi
+
   Scenario: Kullanici basarili bir sekilde giris yapar
 
     Given Kullanici "myAutomationUrl" sayfasina gider
