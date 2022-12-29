@@ -7,7 +7,6 @@ import utilities.Driver;
 
 public class AmazonPage {
     public WebElement tryBirimi;
-
     public AmazonPage() {
         PageFactory.initElements( Driver.getDriver(), this );
     }
