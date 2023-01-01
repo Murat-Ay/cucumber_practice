@@ -23,17 +23,18 @@ public class AmazonPage {
         @FindBy(xpath = "//span[@class='icp-nav-link-inner']")
         public WebElement languageSection;
 
-    @FindBy(xpath = "(//a[@href='/customer-preferences/edit?ref=icp_cop_flyout_change?preferencesReturnUrl=%2F'])[1]")
-    public WebElement changeButtonChangeLanguage;
+        @FindBy(xpath = "(//a[@href='/customer-preferences/edit?ref=icp_cop_flyout_change?preferencesReturnUrl=%2F'])[1]")
+        public WebElement changeButtonChangeLanguage;
 
-    @FindBy(xpath = "//span[@class='a-button-text a-declarative']")
-    public WebElement selectCurrencyDrop;
+       @FindBy(xpath = "//span[@class='a-button-text a-declarative']")
+       public WebElement selectCurrencyDrop;
 
     @FindBy(xpath = "//input[@class='a-button-input']")
     public WebElement saveChangesButton;
 
     @FindBy (xpath = "(//a[@class='icp-button'])[2]")
     public WebElement usdButton;
+
 
     @FindBy(xpath = "(//span[text()='PLN'])[1]")
     public WebElement paraBirimiTest;
