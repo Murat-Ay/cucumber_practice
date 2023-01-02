@@ -29,11 +29,11 @@ public class AmazonPage {
        @FindBy(xpath = "//span[@class='a-button-text a-declarative']")
        public WebElement selectCurrencyDrop;
 
-    @FindBy(xpath = "//input[@class='a-button-input']")
-    public WebElement saveChangesButton;
+       @FindBy(xpath = "//input[@class='a-button-input']")
+       public WebElement saveChangesButton;
 
-    @FindBy (xpath = "(//a[@class='icp-button'])[2]")
-    public WebElement usdButton;
+       @FindBy (xpath = "(//a[@class='icp-button'])[2]")
+       public WebElement usdButton;
 
 
     @FindBy(xpath = "(//span[text()='PLN'])[1]")
