@@ -15,7 +15,7 @@ public class AmazonStepDefinitions {
     AmazonPage amazonPage=new AmazonPage();
     @Then("Kullanici amazon arama kutusunda {string} arama yapar")
     public void kullanici_amazon_arama_kutusunda_arama_yapar(String istenenMeyve) {
-amazonPage.amazonAramaKutusu.sendKeys( istenenMeyve+ Keys.ENTER );
+    amazonPage.amazonAramaKutusu.sendKeys( istenenMeyve+ Keys.ENTER );
     }
     @Then("Kullanici arattigi {string} test eder")
     public void kullanici_arattigi_test_eder(String testMeyve) {

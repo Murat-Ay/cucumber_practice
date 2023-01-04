@@ -35,8 +35,7 @@ public class AmazonPage {
        @FindBy (xpath = "(//a[@class='icp-button'])[2]")
        public WebElement usdButton;
 
-
-    @FindBy(xpath = "(//span[text()='PLN'])[1]")
-    public WebElement paraBirimiTest;
+      @FindBy(xpath = "(//span[text()='PLN'])[1]")
+      public WebElement paraBirimiTest;
     }
 
