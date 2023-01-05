@@ -60,7 +60,6 @@ demyPage.requirementsButton.click();
     demyPage.outComesGreenPlusButton.click();
 Assert.assertTrue(demyPage.outComesRedMinusButton.isDisplayed() );
     }
-
     @Then("Log out by closing the page")
     public void log_out_by_closing_the_page() {
 

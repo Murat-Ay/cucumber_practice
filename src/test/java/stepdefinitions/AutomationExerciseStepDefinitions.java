@@ -13,7 +13,6 @@ public class AutomationExerciseStepDefinitions {
     public void kullanici_sayfasina_gider(String istenenUrl) {
         Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
     }
-
     @Then("Kullanici Signup butonuna tiklar")
     public void kullanici_signup_butonuna_tiklar() {
 
