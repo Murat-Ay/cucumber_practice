@@ -18,8 +18,6 @@ public class AutomationExerciseStepDefinitions {
 
         page.signUpLink.click();
     }
-
-
     @Then("Kullanici mail bolumune {string} gonderir")
     public void kullanici_mail_bolumune_gonderir(String istenenMail) {
         page.emailBox.sendKeys(ConfigReader.getProperty(istenenMail));
