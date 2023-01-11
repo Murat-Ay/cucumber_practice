@@ -9,6 +9,7 @@ Feature: US1115 Amazon Genel Testi
     Then Kullanici arattigi "<istenilenKelime>" test eder
     And  Sayfayi kapatir
 
+
     Examples:
       | istenilenMenu | istenilenKelimeyi | istenilenKelime |
       | Arts & Crafts | Mona Lisa| Mona Lisa|
