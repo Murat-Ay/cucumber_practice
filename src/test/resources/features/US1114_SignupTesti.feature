@@ -11,6 +11,7 @@ Feature: US1114 Signup Testi
     Then  Kullanici demy sayfasinda Signup Butonuna tiklar
     Then  Kullanici uye hesabi olusturmaadigini test eder
     And   Sayfayi kapatir
+
     Examples:
       | istenenIsim |istenenSoyisim   | istenenMail  | istenenPassword   |
       | yanlisisim  |  dogrusoyisim   | yanlismail   | yanlispassword    |
