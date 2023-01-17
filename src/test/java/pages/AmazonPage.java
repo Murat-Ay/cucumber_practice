@@ -14,10 +14,8 @@ public class AmazonPage {
         @FindBy(xpath = "//input[@id='twotabsearchtextbox']")
         public WebElement amazonAramaKutusu;
 
-
         @FindBy(xpath = "//span[@class='a-color-state a-text-bold']")
         public WebElement amazonAramaSonucuTest;
-
 
         @FindBy(xpath = "//select[@aria-describedby='searchDropdownDescription']")
         public WebElement dropDownMenu;
