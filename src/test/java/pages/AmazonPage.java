@@ -17,12 +17,12 @@ public class AmazonPage {
         @FindBy(xpath = "//span[@class='a-color-state a-text-bold']")
         public WebElement amazonAramaSonucuTest;
 
-
         @FindBy(xpath = "//select[@aria-describedby='searchDropdownDescription']")
         public WebElement dropDownMenu;
 
         @FindBy(xpath = "//span[@class='icp-nav-link-inner']")
         public WebElement languageSection;
+
 
         @FindBy(xpath = "(//a[@href='/customer-preferences/edit?ref=icp_cop_flyout_change?preferencesReturnUrl=%2F'])[1]")
         public WebElement changeButtonChangeLanguage;
