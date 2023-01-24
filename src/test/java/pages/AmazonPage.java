@@ -31,6 +31,7 @@ public class AmazonPage {
        @FindBy(xpath = "//span[@class='a-button-text a-declarative']")
        public WebElement selectCurrencyDrop;
 
+
        @FindBy(xpath = "//input[@class='a-button-input']")
        public WebElement saveChangesButton;
 
