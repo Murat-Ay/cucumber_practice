@@ -33,6 +33,7 @@ public class AmazonPage {
        @FindBy(xpath = "//input[@class='a-button-input']")
        public WebElement saveChangesButton;
 
+
        @FindBy (xpath = "(//a[@class='icp-button'])[2]")
        public WebElement usdButton;
 
