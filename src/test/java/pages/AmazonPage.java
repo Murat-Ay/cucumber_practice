@@ -13,10 +13,8 @@ public class AmazonPage {
 
         @FindBy(xpath = "//input[@id='twotabsearchtextbox']")
         public WebElement amazonAramaKutusu;
-
         @FindBy(xpath = "//span[@class='a-color-state a-text-bold']")
         public WebElement amazonAramaSonucuTest;
-
 
         @FindBy(xpath = "//select[@aria-describedby='searchDropdownDescription']")
         public WebElement dropDownMenu;
@@ -32,12 +30,9 @@ public class AmazonPage {
 
        @FindBy(xpath = "//input[@class='a-button-input']")
        public WebElement saveChangesButton;
-
-
        @FindBy (xpath = "(//a[@class='icp-button'])[2]")
        public WebElement usdButton;
-
-      @FindBy(xpath = "(//span[text()='PLN'])[1]")
-      public WebElement paraBirimiTest;
+       @FindBy(xpath = "(//span[text()='PLN'])[1]")
+       public WebElement paraBirimiTest;
     }
 
